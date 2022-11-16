@@ -47,6 +47,7 @@ module.exports = function (url, callback) {
                 outputUrl: location,
                 outputHost: dest.host,
                 outputPath: dest.pathname,
+                outputQuery: dest.search,
                 outputProtocol: dest.protocol,
                 outputPort: dest.port,
                 domainInfo: {
