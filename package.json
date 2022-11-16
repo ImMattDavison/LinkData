@@ -1,0 +1,24 @@
+{
+  "name": "linkdata",
+  "version": "1.0.0",
+  "description": "Get info on a given link!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImMattDavison/linkdata.git"
+  },
+  "keywords": [
+    "link",
+    "unshorten",
+    "domain"
+  ],
+  "author": "Matt Davison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImMattDavison/linkdata/issues"
+  },
+  "homepage": "https://github.com/ImMattDavison/linkdata#readme"
+}
