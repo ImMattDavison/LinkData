@@ -13,10 +13,13 @@
   "keywords": [
     "link",
     "unshorten",
-    "domain"
+    "domain",
+    "linkdata",
+    "url",
+    "url-info"
   ],
   "author": "Matt Davison",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ImMattDavison/linkdata/issues"
   },
