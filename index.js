@@ -41,6 +41,7 @@ module.exports = function (url, callback) {
                 inputUrl: url,
                 inputHost: link.host,
                 inputPath: link.pathname,
+                inputQuery: link.search,
                 inputProtocol: link.protocol,
                 inputPort: link.port,
                 outputUrl: location,
