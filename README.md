@@ -4,7 +4,9 @@ Return details about a link, unshorten short links, check status codes, and view
 
 ## Install
 
-```$ npm install linkdata```
+```
+$ npm install linkdata
+```
 
 ## How it works
 
