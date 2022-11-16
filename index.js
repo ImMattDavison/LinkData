@@ -1,5 +1,5 @@
 const request = require('request');
-const nodeUrl = require('node:url');
+const nodeUrl = require('url');
 
 let wasRedirected = false;
 
