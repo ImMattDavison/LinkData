@@ -13,7 +13,7 @@ $ npm install linkdata
 ```js
 const linkdata = require('linkdata');
 
-let url = 'https://bit.ly/3Gl9L7V' // or any other link
+let url = 'https://bit.ly/3X9Oa86' // or any other link
 
 let result = linkdata(url, function (err, response) {
     console.log(response);
@@ -24,31 +24,31 @@ let result = linkdata(url, function (err, response) {
 
 ```
 {
-  inputUrl: 'https://bit.ly/3Gl9L7V',
+  inputUrl: 'https://bit.ly/3X9Oa86',
   inputHost: 'bit.ly',
-  inputPath: '/3Gl9L7V',
+  inputPath: '/3X9Oa86',
   inputProtocol: 'https:',
   inputPort: null,
-  outputUrl: 'https://github.com/ImMattDavison/linkdata',
-  outputHost: 'github.com',
-  outputPath: '/ImMattDavison/linkdata',
+  outputUrl: 'https://matt.lgbt/',
+  outputHost: 'matt.lgbt',
+  outputPath: '/',
   outputProtocol: 'https:',
   outputPort: null,
   domainInfo: {
     originDomain: 'bit.ly',
-    originUrl: 'https://bit.ly/3Gl9L7V',
-    destinationDomain: 'github.com',
-    destinationUrl: 'https://github.com/ImMattDavison/linkdata',
-    statusCode: 404,
-    statusMessage: 'Not Found'
+    originUrl: 'https://bit.ly/3X9Oa86',
+    destinationDomain: 'matt.lgbt',
+    destinationUrl: 'https://matt.lgbt/',
+    statusCode: 200,
+    statusMessage: 'OK'
   },
   redirectStatus: {
     wasRedirected: true,
-    directedTo: 'https://github.com/ImMattDavison/linkdata',
-    directedFrom: 'https://bit.ly/3Gl9L7V',
+    directedTo: 'https://matt.lgbt/',
+    directedFrom: 'https://bit.ly/3X9Oa86',
     destinationProtocol: 'https:',
-    statusCode: 404,
-    statusMessage: 'Not Found'
+    statusCode: 200,
+    statusMessage: 'OK'
   }
 }
 ```
