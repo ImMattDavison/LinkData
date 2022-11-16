@@ -15,7 +15,7 @@ const linkdata = require('linkdata');
 
 let url = 'https://bit.ly/3X9Oa86' // or any other link
 
-let result = linkdata(url, function (err, response) {
+linkdata(url, function (err, response) {
     console.log(response);
 });
 ```
