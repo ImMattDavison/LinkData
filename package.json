@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ImMattDavison/linkdata/issues"
   },
-  "homepage": "https://github.com/ImMattDavison/linkdata#readme"
+  "homepage": "https://github.com/ImMattDavison/linkdata#readme",
+  "dependencies": {
+    "require": "^2.4.20"
+  }
 }
