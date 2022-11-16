@@ -24,8 +24,8 @@ function checkUrl(url) {
         let statusCode = r.statusCode;
         
         // DECLARE NODE URLS
-        let link = new URL(url)
-        let dest = new URL(location)
+        let link = nodeUrl.parse(url, true)
+        let dest = nodeUrl.parse(location, true)
 
         if (!url.match(location)) wasRedirected = true;
         return (
