@@ -35,13 +35,11 @@ module.exports = function (url, callback) {
                 inputUrl: url,
                 inputHost: link.host,
                 inputPath: link.pathname,
-                inputQuery: link.query,
                 inputProtocol: link.protocol,
                 inputPort: link.port,
                 outputUrl: location,
                 outputHost: dest.host,
                 outputPath: dest.pathname,
-                outputQuery: dest.query,
                 outputProtocol: dest.protocol,
                 outputPort: dest.port,
                 domainInfo: {
