@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ImMattDavison/linkdata.git"
+    "url": "git+https://github.com/ImMattDavison/LinkData.git"
   },
   "keywords": [
     "link",
@@ -21,9 +21,9 @@
   "author": "Matt Davison",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ImMattDavison/linkdata/issues"
+    "url": "https://github.com/ImMattDavison/LinkData/issues"
   },
-  "homepage": "https://github.com/ImMattDavison/linkdata#readme",
+  "homepage": "https://github.com/ImMattDavison/LinkData#readme",
   "dependencies": {
     "request": "^2.88.2",
     "require": "^0.4.4",
