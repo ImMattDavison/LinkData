@@ -38,17 +38,15 @@ let result = linkdata(url, function (err, response) {
     originDomain: 'bit.ly',
     originUrl: 'https://bit.ly/3X9Oa86',
     destinationDomain: 'matt.lgbt',
-    destinationUrl: 'https://matt.lgbt/',
-    statusCode: 200,
-    statusMessage: 'OK'
+    destinationUrl: 'https://matt.lgbt/'
   },
   redirectStatus: {
     wasRedirected: true,
     directedTo: 'https://matt.lgbt/',
     directedFrom: 'https://bit.ly/3X9Oa86',
     destinationProtocol: 'https:',
-    statusCode: 200,
-    statusMessage: 'OK'
+    destinationStatusCode: 200,
+    destinationStatusMessage: 'OK'
   }
 }
 ```
