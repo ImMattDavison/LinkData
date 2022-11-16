@@ -8,7 +8,7 @@ Return details about a link, unshorten short links, check status codes, and view
 $ npm install linkdata
 ```
 
-## How it works
+## How to use it
 
 ```js
 const linkdata = require('linkdata');
