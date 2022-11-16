@@ -20,7 +20,7 @@ let result = linkdata(url, function (err, response) {
 
 ## Sample response
 
-```json 
+```
 {
   inputUrl: 'https://bit.ly/3Gl9L7V',
   inputHost: 'bit.ly',
