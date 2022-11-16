@@ -1,7 +1,7 @@
 {
   "name": "linkdata",
   "version": "1.0.0",
-  "description": "Get info on a given link!",
+  "description": "Get info on a given link. Find out if it redirects, it's http status and more!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
