@@ -27,11 +27,13 @@ let result = linkdata(url, function (err, response) {
   inputUrl: 'https://bit.ly/3X9Oa86',
   inputHost: 'bit.ly',
   inputPath: '/3X9Oa86',
+  inputQuery: null,
   inputProtocol: 'https:',
   inputPort: null,
   outputUrl: 'https://matt.lgbt/',
   outputHost: 'matt.lgbt',
   outputPath: '/',
+  outputQuery: null,
   outputProtocol: 'https:',
   outputPort: null,
   domainInfo: {
