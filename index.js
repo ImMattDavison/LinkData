@@ -53,16 +53,14 @@ module.exports = function (url, callback) {
                     originUrl: url,
                     destinationDomain: dest.host,
                     destinationUrl: location,
-                    statusCode: statusCode,
-                    statusMessage: r.statusMessage,
                 },
                 redirectStatus: {
                     wasRedirected: wasRedirected,
                     directedTo: location,
                     directedFrom: url,
                     destinationProtocol: dest.protocol,
-                    statusCode: statusCode,
-                    statusMessage: r.statusMessage,
+                    destinationStatusCode: statusCode,
+                    destinationStatusMessage: r.statusMessage,
                 },
             }
         );
