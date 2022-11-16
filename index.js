@@ -3,7 +3,7 @@ const nodeUrl = require('url');
 
 let wasRedirected = false;
 
-function checkUrl(url) {
+module.exports = function (url, callback) {
     // IF URL DOES NOT HAVE DEFINED PROTOCOL, ADD HTTPS
     if (!url.startsWith('http')) url = 'https://' + url;
 
@@ -28,23 +28,28 @@ function checkUrl(url) {
         let dest = nodeUrl.parse(location, true)
 
         if (!url.match(location)) wasRedirected = true;
-        return (
+
+        // RETURN DATA
+        return callback(null,
             {
+                alldata: r,
                 url: url,
                 statusCode: statusCode,
                 redirectStatus: {
                     wasRedirected: wasRedirected,
                     directedTo: location,
+                    destinationProtocol: dest.protocol,
+                    statusCode: statusCode,
+                    statusMessage: r.statusMessage,
                 },
                 domainInfo: {
                     originDomain: link.host,
                     originUrl: url,
                     destinationDomain: dest.host,
                     destinationUrl: location,
+                    statusMessage: r.statusMessage,
                 },
             }
         );
     });
-}
-
-module.exports = checkUrl(url);
+};
