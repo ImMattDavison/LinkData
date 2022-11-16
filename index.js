@@ -4,6 +4,12 @@ const nodeUrl = require('url');
 let wasRedirected = false;
 
 module.exports = function (url, callback) {
+    // CHECK IF URL IS VALID
+    if (!url.match(/[(http(s)?):\/\/(www\.)?a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/ig)) {
+        callback(null, 'Invalid URL ' + url);
+        return;
+    };
+
     // IF URL DOES NOT HAVE DEFINED PROTOCOL, ADD HTTPS
     if (!url.startsWith('http')) url = 'https://' + url;
 
