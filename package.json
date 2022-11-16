@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ImMattDavison/linkdata#readme",
   "dependencies": {
-    "require": "^2.4.20"
+    "require": "^2.4.20",
+    "url": "^0.11.0"
   }
 }
