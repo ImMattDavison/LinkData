@@ -16,7 +16,7 @@ const linkdata = require('linkdata');
 let url = 'https://bit.ly/3X9Oa86' // or any other link
 
 linkdata(url, function (err, response) {
-    console.log(response); // returns an object with redirect to matt.lgbt
+    console.log(response); // returns an object with all the link data (in this case with redirect to matt.lgbt)
 });
 ```
 
