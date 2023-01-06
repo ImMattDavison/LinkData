@@ -20,7 +20,7 @@ module.exports = function (url, callback) {
         {
         url: url,
         headers: {
-            'User-Agent': 'request',
+            'User-Agent': 'LinkData | github.com/ImMattDavison/linkdata',
         },
         },
         function (err, r, body) {
